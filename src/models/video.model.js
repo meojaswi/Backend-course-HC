@@ -15,7 +15,7 @@ const videoSchema = new Schema(
       required: true,
     },
     duration: {
-      type: Number, //from cloudnary
+      type: Number, //from cloudnary (when we upload data on cloudnary it gives us all the data associated with it one of which is its duration too.)
       required: true,
     },
     views: {
